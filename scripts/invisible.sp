@@ -25,7 +25,7 @@ public OnPluginStart() {
 }
 
 public OnClientPutInServer(iClient) {
-    g_bInvisible[iClient] = false;
+
     SDKHook(iClient, SDKHook_SetTransmit, Hook_SetTransmit);
 }
 
