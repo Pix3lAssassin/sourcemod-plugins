@@ -25,7 +25,6 @@ public OnPluginStart() {
 }
 
 public OnClientPutInServer(iClient) {
-
     SDKHook(iClient, SDKHook_SetTransmit, Hook_SetTransmit);
 }
 

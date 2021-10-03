@@ -70,8 +70,6 @@ public OnPluginStart() {
   AutoExecConfig(_, "launch");
 }
 
-public OnConfigsExecuted
-
 public OnClientPutInServer(iClient) {
   currentStamina[iClient] = maxStamina;
   fallDamage[iClient] = true;

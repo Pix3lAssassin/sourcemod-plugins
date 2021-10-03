@@ -41,7 +41,7 @@ public Action:Command_AttachParticle(iClient, args)
   }
   if (args != 2)
   {
-    ReplyToCommand(iClient, "Usage:sm_attachparticle <client> <0/1>");
+    ReplyToCommand(iClient, "Usage: sm_attachparticle <client> <0/1>");
     return Plugin_Handled;
   }
 
